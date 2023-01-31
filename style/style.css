@@ -1,8 +1,18 @@
 
+
+/*home*/
+
 .container{
-    background-color: rgb(101, 253, 149) !important;
+    background-color: #0002A1 !important;
+    padding: 20px !important;
+
 }
 
-.col{
-    background-color: rgb(34, 44, 29) !important;
+
+.card{
+    background-color: #FB2576 !important;
+}
+
+.row{
+    padding-top: 20px !important;
 }
