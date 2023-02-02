@@ -61,3 +61,23 @@
     background-color: #0070ba;
     color: white;
   }
+
+
+/*game puzzle*/
+
+#board {
+    width: 390px;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #f5ff9f;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 128px;
+    height: 128px;
+    border: 1px solid #f5ff9f;
+}
