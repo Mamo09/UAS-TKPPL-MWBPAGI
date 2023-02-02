@@ -29,3 +29,35 @@
 .ourteamcard{
     padding: 50px !important;
 }
+
+
+
+/*tictactoe*/
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .cell {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .x {
+    background-color: #c82333;
+    color: white;
+  }
+  
+  .o {
+    background-color: #0070ba;
+    color: white;
+  }
